@@ -22,5 +22,21 @@
   },
   "include": [
     "src"
+  ],
+  "include": [
+    "src/types/declaration.d.ts"
+  ],
+  "outDir": "./dist/",
+  "noImplicitAny": true,
+  "module": "esnext",
+  "target": "es5",
+  "jsx": "react",
+  "allowJs": true,
+  "moduleResolution": "node",
+  "checkJs": true,
+  "allowSyntheticDefaultImports": true,
+  "typeRoots": [
+    "node_modules/@types",
+    "src/types"
   ]
 }
